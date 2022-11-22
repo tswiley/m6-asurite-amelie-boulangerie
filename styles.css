@@ -8,7 +8,7 @@ body {
     margin: 0px;
 }
 
-head, footer {
+header, footer {
     width: 1000px;
     text-align: center;
 }
@@ -26,7 +26,7 @@ h1 {
     padding-left: 32px;
 }
 
-grid.container {
+#grid-container {
     width: 1000px;
     text-align: center;
     background-color: #fdfdfd;
@@ -40,7 +40,7 @@ nav {
     margin-top: 16px;
 }
 
-nav li {
+nav ul {
     list-style: none;
     text-align: center;
 }
@@ -58,9 +58,10 @@ nav a {
     font-weight: bold;
 }
 
-nav a:hover:first-of-type {
+nav a:hover {
     background-color: #F28095;
 }
+
 
 main {
     background-color: white;
@@ -72,24 +73,30 @@ img {
     float: left;
 }
 
-p li{
+main p {
     display: inline-block;
-    width: 50%;
-}
-
-main, p {
     margin-left: 32px;
+    width: 50%;
+    float: left;
+    text-align: left;
 }
 
 main ul{
+    display: inline-block;
     margin-left: 16px;
+    width: 50%;
+    float: left;
+    text-align: left;
 }
 
 address {
     clear: both;
+    padding-top: 16px;
+    text-align: left;
 }
 
 footer {
+    width: 1000px;
     font-style: italic;
     text-align: center;
     background-color: #afaeb4;
