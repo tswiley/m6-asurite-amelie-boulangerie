@@ -1,5 +1,5 @@
 * {
-    font-family: verdana, Arial, Helvetica, sans-serif;
+    font-family: verdana, Arial, sans-serif;
     line-height: 1.5;
 }
 
@@ -94,7 +94,6 @@ main p {
 main ul{
     display: inline-block;
     margin-left: 16px;
-    width: 50%;
     float: left;
     text-align: left;
 }
