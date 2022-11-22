@@ -14,16 +14,23 @@ header, footer {
 }
 
 header {
+    text-align: left;
     height: 150px;
     background-color: #141a1a;
     background-image: url("images/bowl.jpg");
     color: white;
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
 h1 {
     margin: 0px;
     padding-top: 50px;
     padding-left: 32px;
+}
+
+h2 {
+    text-align: left;
 }
 
 #grid-container {
@@ -40,7 +47,7 @@ nav {
     margin-top: 16px;
 }
 
-nav ul {
+nav li {
     list-style: none;
     text-align: center;
 }
@@ -61,7 +68,6 @@ nav a {
 nav a:hover {
     background-color: #F28095;
 }
-
 
 main {
     background-color: white;
