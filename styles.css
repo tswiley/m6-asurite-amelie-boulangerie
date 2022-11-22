@@ -7,6 +7,9 @@ body {
     background-color: #F28095;
     padding-left: 25px;
     margin: 0px;
+    max-width: 1080px; 
+	margin: 0 auto !important; 
+	float: none !important; 
 }
 
 header, footer {
